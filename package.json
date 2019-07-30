@@ -1,0 +1,23 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js -e js"
+  },
+  "author": "Adrian Bieganowski",
+  "license": "ISC",
+  "dependencies": {
+    "csvjson": "^5.1.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
